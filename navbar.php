@@ -17,6 +17,10 @@
       </li>
      
     </ul>
+    <div>
+        <a href="logout.php" class="btn btn-warning">Logout</a>
+
+    </div>
   </div>
 
 </nav>

@@ -19,14 +19,16 @@ if (!isset($_SESSION["user"])) {
 		
 </head>
 <body>
-  <?php include 'navbar.php' ?>
+ 
+    <div class="container">
+      <div>
+         <?php include 'navbar.php' ?>
 	<label for="from">From</label>
 <input type="text" id="from" name="from">
 <label for="to">to</label>
 <input type="text" id="to" name="to">
-    <div class="container">
+      </div>
         <h1>Welcome to Dashboard</h1>
-        <a href="logout.php" class="btn btn-warning">Logout</a>
         <form action="movie-search.php" method="POST">
 		<div class="autocomplete">
 			<input type="text" id="movie-box" name="search" autocomplete="off" placeholder="Movie search..." minlength="2">

@@ -39,7 +39,7 @@ if (!isset($_SESSION["user"])) {
 
 		if(movie != ''){
 			$.ajax({
-				url: "load-movies.php",
+				url: "load-flights.php",
 				method: "POST",
 				data: {movie: movie},
 				success: function(data){
